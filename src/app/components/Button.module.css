@@ -1,7 +1,7 @@
 .button {
   width: 12rem;
   height: 2rem;
-  background-color: rgb(180, 3, 3);
+  background-color: rgb(119, 6, 6);
   color: #ffffff;
   font-weight: bold;
   font-size: 1rem;
@@ -9,4 +9,10 @@
   border-radius: 0.5rem;
   margin-top: 1rem;
   cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.button:hover {
+  transition: 0.5s ease-in-out;
+  background: #ff0000;
 }
