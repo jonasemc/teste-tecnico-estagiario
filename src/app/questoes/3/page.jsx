@@ -11,7 +11,11 @@ export default function Questao3() {
         Escreva uma função JavaScript que recebe uma matriz de números inteiros
         e retorna a soma de todos os números pares. Exiba a soma na tela.
       </p>
-      <SumPairComponent />
+      <SumPairComponent
+        numbers={numbers.join(", ")}
+        pairNumbers={pairNumbers.join(", ")}
+        sumNumbers={sumNumbers}
+      />
     </>
   );
 }
